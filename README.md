@@ -3,8 +3,11 @@ This repository hold the submission for homework 9 (sql_challenge).
 
 ## Files
 schema.sql
+
 queries.sql
+
 ERD_image.png
+
 Homework 9 Bonus.ipynb
 
 ## Database Information
