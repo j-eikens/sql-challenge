@@ -4,10 +4,6 @@ from employees as e
 join salaries as s
 on (e.emp_no = s.emp_no);
 
--- change hire date to datetime
-alter table employees
-alter column hire_date type date using hire_date::date;
-
 --query for employees hired in 1986: first name, last name, hire date
 select first_name, last_name, hire_date
 from employees
